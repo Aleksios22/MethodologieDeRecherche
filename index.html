@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Recherche</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="icon" href="images/Robinweatherall-Library-Book-open.ico" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="global">
+        <header>
+                <h1>Méthodologie de recherche</h1> <!--TDOC = Technique de documentation-->
+        </header>
+        <nav>
+            <ul id="ulMenu">
+                <li id="liens" class="liMenu">Outils</li>
+                    <ul id="ulLiens" class="ulOption">
+                    </ul>
+                <li id="images" class="liMenu">Images</li>
+                    <ul id="ulImages" class="ulOption">
+                    </ul>
+                <li id="sons" class="liMenu">Sons</li>
+                    <ul id="ulSons" class="ulOption"> 
+                    </ul>
+            </ul>
+        </nav>
+        <aside>
+            <p id="asideP1">::Diaporama::</p>
+            <div id="diaporama">
+                <div id="fenetre">
+                    <div id="bande">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="lightBox">
+               
+            </div>
+            <div id="divBtn">
+            <button id="btnleft" class="btn"><i class="material-icons"> keyboard_arrow_left </i></button>
+            <button id="btnright" class="btn"><i class="material-icons"> keyboard_arrow_right </i></button>
+            </div>
+            <p id="asideP2">::Playlist::</p>
+                    <select class="listeDeroulanteSons">
+                      
+                    </select>
+            <div class="ctrlAudio">
+                <audio controls ></audio>
+            </div>
+        </aside>    
+        <section>
+            <div id="sectionAccueil">
+                <h2>Méthodologie de recherche <br> médiatique</h2>
+                <p id="pDuContenu">La recherche documentaire est essentiellement une recherche de références de documents relatifs 
+                    à un sujet. Cette recherche pour être efficace, exhaustive requiert une méthodologie efficace. Elle doit passer 
+                    par plusieurs étapes incontournables permettant de chercher, identifier, choisir des documents sur un thème ou 
+                    sujet précis, défini et délimité.
+                    
+                    <br> <cite>Une institution</cite></p>
+            </div>
+            <div id="sectionImages">
+                    <h2>Choix des images :</h2>
+                <div id="cadreImage">
+                        
+                </div>
+                    <p>Présence de cette image dans le diaporama ?</p>
+                <form id="form1">
+                    
+                </form>
+            </div>
+            <div id="sectionSons">
+                    <h2>Choix des sons :</h2>
+                <div id="pisteSonore">
+                        <audio controls>Votre navigateur ne supporte pas les éléments audio</audio>
+                </div>
+                    <p>Ajouter le son a la liste de lecture ?</p>
+                <form id="form2">
+                    
+                </form>
+            </div>
+        </section>
+        <footer>
+            <span id="date"></span>
+            <span id="horloge"></span>
+        </footer>
+    </div>
+    <script src="js/menu.data.js"></script>
+    <script src="js/base.js"></script>
+</body>
+</html>
